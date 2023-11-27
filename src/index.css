@@ -1,0 +1,90 @@
+@font-face {
+  font-family: arcade;
+  src: url("assets/font/ARCADE_N.TTF");
+}
+@font-face {
+  font-family: arcade2;
+  font-style: italic;
+  src: url("assets/font/ARCADE_I.TTF");
+}
+.gras {
+  font-family: arcade2, italic;
+}
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: #101010;
+  opacity: 1;
+  background-image: radial-gradient(
+      #ffd700 1.4500000000000002px,
+      transparent 1.4500000000000002px
+    ),
+    radial-gradient(#ffd700 1.4500000000000002px, #101010 1.4500000000000002px);
+  background-size: 58px 58px;
+  background-position: 0 0, 29px 29px;
+}
+
+a {
+  font-family: arcade;
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+* {
+  font-family: "arcade";
+}
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  font-family: "arcade";
+  min-height: 100vh;
+}
+p {
+  color: #ffffff;
+  line-height: 100%;
+  padding: 0 1rem;
+}
+
+h1 {
+  color: #1a1a1a;
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
