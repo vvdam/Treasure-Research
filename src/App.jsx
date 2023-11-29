@@ -115,7 +115,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 // }, []);
 function App() {
   const [text] = useTypewriter({
-    words: ["welcome", "to", "treasure research"],
+    words: ["welcome", "to", "Treasure Hunt"],
     loop: {},
   });
   return (
@@ -129,9 +129,9 @@ function App() {
       <button
         style={{
           fontSize: "1rem",
-          fontWeight: "bold",
           color: "black",
           backgroundColor: "yellow",
+          // imageRendering: pixelated,
         }}
       >
         START
