@@ -3,18 +3,28 @@
   height: 100%;
 }
 .tab {
-  width: 80%;
-  left: auto;
-  right: auto;
+  width: 20%;
+  margin-left: 38%;
   padding: 25px;
   background-color: white;
+  display: grid;
+  row-gap: 20px;
+  align-items: center;
 }
 
 .ligne {
-  width: 60%;
+  width: 2àem;
   height: 10%;
   left: auto;
   right: auto;
   padding: 25px;
   background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+}
+
+.case {
+  height: 1em;
+  width: 1em;
+  background-color: black;
 }

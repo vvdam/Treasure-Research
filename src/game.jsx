@@ -9,25 +9,25 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 function Game() {
   return (
     <>
-      <p>E A sport the game</p>
+      <p>E A sport it's in the game</p>
       <div className="tab">
         {/* ligne 1 */}
         <div className="ligne">
-          <div></div>
-          <div></div>
-          <div></div>
+          <div className="case"></div>
+          <div className="case"></div>
+          <div className="case"></div>
         </div>
         {/* ligne 2 */}
         <div className="ligne">
-          <div></div>
-          <div></div>
-          <div></div>
+          <div className="case"></div>
+          <div className="case"></div>
+          <div className="case"></div>
         </div>
         {/* ligne 3 */}
         <div className="ligne">
-          <div></div>
-          <div></div>
-          <div></div>
+          <div className="case"></div>
+          <div className="case"></div>
+          <div className="case"></div>
         </div>
       </div>
     </>
