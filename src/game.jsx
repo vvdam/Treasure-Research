@@ -7,6 +7,14 @@ import { useEffect } from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 function Game() {
+  let Treasure = a;
+  let Neutrol = a;
+  let trap = a;
+  let ligne = [];
+  let Case = [];
+  const arrayLigne = ligne.map((ligne) => <div className="ligne">{ligne}</div>);
+  const arrayCase = Case.map((Case) => <div className="case">{Case}</div>);
+
   return (
     <>
       <p>E A sport it's in the game</p>
