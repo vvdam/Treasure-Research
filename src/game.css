@@ -3,8 +3,8 @@
   height: 100%;
 }
 .tab {
-  width: 20%;
-  margin-left: 38%;
+  width: 30%;
+  margin-left: 33%;
   padding: 25px;
   background-color: white;
   display: grid;
@@ -28,5 +28,5 @@
 .case {
   height: 2em;
   width: 2em;
-  font-size: 30px;
+  font-size: 50px;
 }
