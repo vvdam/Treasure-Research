@@ -18,13 +18,15 @@
   left: auto;
   right: auto;
   padding: 25px;
-  background-color: aqua;
+  border-radius: 10px;
+
+  border: 2px solid color (black);
   display: flex;
   justify-content: space-between;
 }
 
 .case {
-  height: 1em;
-  width: 1em;
-  background-color: black;
+  height: 2em;
+  width: 2em;
+  font-size: 30px;
 }
