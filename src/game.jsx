@@ -12,8 +12,11 @@ function melangerTableau(tableau) {
     [tableau[i], tableau[j]] = [tableau[j], tableau[i]];
   }
 }
-
+function FinDeJeu(party) {
+  // if party
+}
 function Game() {
+  const party = [];
   const Treasure = "🍀";
   const Neutrol = "🥶";
   const trap = "💀";
