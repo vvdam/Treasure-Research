@@ -12,9 +12,8 @@ function melangerTableau(tableau) {
     [tableau[i], tableau[j]] = [tableau[j], tableau[i]];
   }
 }
-function FinDeJeu(party) {
-  // if party
-}
+function FinDeJeu(party) {}
+
 function Game() {
   const party = [];
   const Treasure = "🍀";
@@ -49,7 +48,7 @@ function Game() {
       nouvelleGrille.push(ligne);
     }
     setGrille(nouvelleGrille);
-  }, []); // La dépendance vide fait en sorte que cet effet s'exécute une seule fois au montage initial
+  }, []);
 
   const handleClick = (ligne, colonne) => {
     // Si la case n'a pas déjà été cliquée, on peut la rendre visible
@@ -64,7 +63,6 @@ function Game() {
 
   return (
     <>
-      <p>E A sport it's in the game</p>
       <div className="tab">
         {grille.map((ligne, indexLigne) => (
           <div key={indexLigne} className="ligne">
